@@ -1,0 +1,122 @@
+html, body {
+    background-color: #fff;
+    color: #636b6f;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    display: flex;
+    width: 80%;
+    margin: 6% auto;
+    div:first-child {
+        margin-right: 20px;
+        img {
+            width: 200px;
+            border-radius: 50%;
+        }
+    }
+    .links{
+        border: 1px solid #ededed;
+        border-top: none;
+        border-radius: 8px;
+
+        div:not(div:nth-child(1)):not(div:nth-child(2)):not(div:nth-child(3)) a{
+            text-decoration: none;
+        }
+    }
+}
+
+i{
+    color: #7e7e7e;
+}
+
+.title {
+    font-size: 84px;
+}
+
+.links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+
+
+
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+.item{
+    border-bottom: 1px solid lightgrey;
+    padding: 15px 15px 15px 55px;
+    position: relative;
+
+    i{
+        position: absolute;
+        left: 20px;
+        top: 18px;
+        font-size: 18px;
+    }
+    a{
+        color: black;
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+    p a{
+        color: #8f8f8f;
+        font-size: 15px;
+        font-weight: normal;
+        text-decoration: underline !important;
+    }
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    width: 80%;
+    margin: -100px auto;
+
+    div:first-child{
+        display: flex;
+
+        div a{
+            margin-left: 7px;
+        }
+
+        div:first-child{
+            margin-right: 10px;
+        }
+
+        div:nth-child(2) a{
+            margin-left: 0;
+        }
+
+        a, span{
+            color: #a5a5a5;
+        }
+    }
+}
